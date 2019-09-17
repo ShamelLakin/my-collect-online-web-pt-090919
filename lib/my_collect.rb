@@ -16,6 +16,6 @@ my_collect(array) do |student|
 end
 
 languages = ['ruby', 'javascript', 'python', 'objective-c']
-my_collect(collection) do |lang|
-  lang.upcase
+my_collect(collection) do |language|
+  language.upcase
 end
