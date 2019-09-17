@@ -1,13 +1,13 @@
-def my_collect(collection)
+def my_collect(array)
   i = 0
-  collection = []
-  while i < collection.length
+  array = []
+  while i < array.length
 
     collection << 
-    yield(collection[i])
+    yield(array[i])
     i += 1
   end
-  collection
+  array
 end
 
 array = ["Tim Jones", "Tom Smith", "Jim Campagno"]
