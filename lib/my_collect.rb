@@ -1,14 +1,14 @@
 require 'pry'
 def my_collect(array)
   i = 0
-  collection = []
+  array = []
   while i < array.length
     binding.pry
     collection << 
     yield(array[i])
     i += 1
   end
-  collection
+  array
 end
 
 
