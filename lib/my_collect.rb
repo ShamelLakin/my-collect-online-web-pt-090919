@@ -10,9 +10,9 @@ def my_collect(collection)
   collection
 end
 
-students = ["Tim Jones", "Tom Smith", "Jim Campagno"]
-my_collect(students) do |student|
-  student.split(" ").first
+array = ["Tim Jones", "Tom Smith", "Jim Campagno"]
+my_collect(array) do |name|
+  name.split(" ").first
 end
 
 collection = ['ruby', 'javascript', 'python', 'objective-c']
